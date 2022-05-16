@@ -1,10 +1,10 @@
 body {
     font-family: Roboto , sans-serif;
-    height: 100vm;
+    box-sizing: border-box;
+    height: 100vh;
     margin: 0;
     display: flex;
-    box-sizing: border-box;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .header {
@@ -34,13 +34,18 @@ body {
     flex-direction: column;
 }
 
-.hb-text div {
+.hb-text .hb-main {
     font-size: 48px;
 }
 
-li , .hb-text p {
+li , .hb-text .hb-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hb-secondary {
+    margin-bottom: 10px;
+    max-width: 500px;
 }
 
 
@@ -95,6 +100,7 @@ button {
     width: 100px;
     height: 100px;
     background-color: black;
+    border-radius: 8px;
 }
 
 .quote {
@@ -146,4 +152,14 @@ button {
 .call-box button {
     border-color: #F9FAF8;
     border-width: 3px;
+}
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
