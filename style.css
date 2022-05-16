@@ -3,6 +3,7 @@ body {
     height: 100vm;
     margin: 0;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;    
 }
 
@@ -59,4 +60,90 @@ button {
     border-width: 0;
     background-color: #3882F6;
     color: inherit;
+}
+
+.info {
+    padding: 50px 30% 50px 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 50px;
+}
+
+.info-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info-elements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.element div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.quote {
+    padding: 50px 30% 50px 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.quote-text {
+    text-align: start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-origin {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.actioncall{
+    padding: 50px 25% 50px 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #F9FAF8;
+}
+
+.call-box {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 5% 15%;
+    gap: 50px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-box button {
+    border-color: #F9FAF8;
+    border-width: 3px;
 }
