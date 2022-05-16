@@ -107,6 +107,7 @@ button {
     padding: 50px 30% 50px 30%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
     flex: 1;
 }
